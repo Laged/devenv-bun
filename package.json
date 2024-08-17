@@ -1,0 +1,16 @@
+{
+  "name": "hello-devenv",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "bun build",
+    "start": "bun run src/main.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
